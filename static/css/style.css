@@ -1,0 +1,30 @@
+.main-body {
+    overflow-y: hidden !important;
+}
+
+.footer-body {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+.footer-main {
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+}
+
+.or-class{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.or-line{
+    background: #fff;
+    padding: 0 10px;
+}
